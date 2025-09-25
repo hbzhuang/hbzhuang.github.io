@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Hongbin Zhuang's Homepage"
 
 positions:
-- logo: /assets/images/badges/CityU_logo.svg  # Logo is optional
+- logo: /assets/images/badges/CityU_logo.png  # Logo is optional
   name: Postdoctoral Fellow, City University of Hong Kong
 
 
