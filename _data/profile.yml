@@ -6,7 +6,7 @@ positions:
 - logo: /assets/images/badges/CityU_logo.png  # Logo is optional
   name: Postdoctoral Fellow, City University of Hong Kong
 
-location:
+location: City+University+of+Hong+Kong/@22.3374861,114.1616813,15z?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D
 email: "hbzhuang476@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: mwO8eToAAAAJ&hl  # This is an example, replace it with your own Google Scholar ID
@@ -21,7 +21,7 @@ orcid: 0000-0003-1871-985X
 short_bio_text_justify: false
 short_bio: >-
   <p style="text-align: justify;">
-    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed. There are various patterns of a bicolour cat. These range from the Van-patterned (colour on the crown of the head 
+    A <a href="https://en.wikipedia.org/wiki/Bicolor_cat" target="_blank">bicolor cat</a> is a cat with white fur combined with fur of some other colour, for example solid black, tabby, or colourpointed. There are various patterns of a &quot;bicolor cat&quot;. These range from the Van-patterned (colour on the crown of the head 
     and the tail only) to a solid colour with a throat locket or medallion. Bicolour coats are found in many cat breeds, 
     as well as being common in domestic longhair and domestic shorthair cats.
   </p>
@@ -39,7 +39,9 @@ education:
   date: Sep. 2019 - Jun. 2024
 - name: Huaqiao University
   logo: /assets/images/badges/Huaqiao.png
-  position: B.Eng. in Civil Engineering
+  position: >- 
+    College of Civil Engineering <br/>
+    B.Eng. in Civil Engineering
   date: Sep. 2015 - Jun. 2019
 
 
@@ -48,7 +50,7 @@ awards:
   date: 2025
 - name: Excellent Graduate of Fuzhou University 
   date: 2024
-- name: 'He said "Hello"' Scholarship for Outstanding Graduate Student 
+- name: Lu Jiaxi Scholarship for Outstanding Graduate Student 
   date: 2023
 - name: National Scholarship for Doctoral Students
   date: 2021
