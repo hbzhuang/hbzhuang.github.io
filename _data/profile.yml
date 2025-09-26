@@ -6,7 +6,7 @@ positions:
 - logo: /assets/images/badges/CityU_logo.png  # Logo is optional
   name: Postdoctoral Fellow, City University of Hong Kong
 
-location: 
+location: 1
 email: "hbzhuang476@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: mwO8eToAAAAJ&hl  # This is an example, replace it with your own Google Scholar ID
@@ -50,3 +50,5 @@ awards:
   date: 2023
 - name: National Scholarship for Doctoral Students
   date: 2023
+- name: Freshman Special Scholarship for Doctoral Candidate in Fuzhou University
+  date: 2021
