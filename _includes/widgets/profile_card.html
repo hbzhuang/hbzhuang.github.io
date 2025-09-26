@@ -49,12 +49,6 @@
                 <hr />
                 <div class="row">
                     <div class="col">
-                        {% if site.data.profile.location %}
-                        <a class="pr-3 no-break" target="_blank" href="https://www.google.com/maps/search/City+University+of+Hong+Kong/@22.3374861,114.1616813,15z?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D">
-                            <i class="fas fa-location-pin"></i> Kowloon Tong, HK
-                        </a>
-                        {% endif %}
-
                         <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}">
                             <i class="fas fa-envelope"></i> <span class="email-text" style="font-family: Arial, sans-serif; color: #007BFF;">{{ site.data.profile.email |   }}</span>
                         </a>
