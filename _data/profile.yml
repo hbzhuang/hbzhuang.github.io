@@ -6,7 +6,7 @@ positions:
 - logo: /assets/images/badges/CityU_logo.png  # Logo is optional
   name: Postdoctoral Fellow, City University of Hong Kong
 
-location: City+University+of+Hong+Kong/@22.3374861,114.1616813,15z?entry=ttu&g_ep=EgoyMDI1MDkyMy4wIKXMDSoASAFQAw%3D%3D
+location: 
 email: "hbzhuang476@gmail.com"
 # cv_link: link-to-your-cv-file
 gscholar: mwO8eToAAAAJ&hl  # This is an example, replace it with your own Google Scholar ID
@@ -33,15 +33,11 @@ portrait_caption: >-
 education:
 - name: Fuzhou University
   logo: /assets/images/badges/Fuzhou.png
-  position: >- 
-    College of Computer and Data Science <br/>
-    Ph.D. in Computer Science
+  position: Ph.D. in Computer Science
   date: Sep. 2019 - Jun. 2024
 - name: Huaqiao University
   logo: /assets/images/badges/Huaqiao.png
-  position: >- 
-    College of Civil Engineering <br/>
-    B.Eng. in Civil Engineering
+  position: B.Eng. in Civil Engineering
   date: Sep. 2015 - Jun. 2019
 
 
@@ -53,4 +49,4 @@ awards:
 - name: Lu Jiaxi Scholarship for Outstanding Graduate Student 
   date: 2023
 - name: National Scholarship for Doctoral Students
-  date: 2021
+  date: 2023
