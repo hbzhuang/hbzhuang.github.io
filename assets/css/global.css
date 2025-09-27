@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6,
 .text-profile-bio {
   font-family: 'Georgia', sans-serif;
   font-size: 1.05rem;
-  line-height: 1.8;
+  line-height: 1.6;
   font-weight: 400;
 }
 
@@ -91,6 +91,24 @@ div.lazy {
 .email-text {
     font-family: Courier, monospace;
 }
+
+/* 只作用于名字这一行 */
+.text-profile-name {
+  font-family: 'Georgia', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.2px;
+  margin-bottom: .25rem;
+}
+/* 职位行同上 */
+.text-profile-position {
+  font-family: 'Georgia', sans-serif;
+  font-size: 1.05rem;
+  font-weight: 500;
+  color: #374151;
+  line-height: 1.6;
+}
+
 
 /* 放在 global.css 最后，覆盖默认 */
 html { font-size: 17px; }           /* 移动端/小屏 */
