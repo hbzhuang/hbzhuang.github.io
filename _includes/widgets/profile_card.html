@@ -51,11 +51,11 @@
                     <div class="col">
                         {% if site.data.profile.location %}
                         <a class="pr-3 no-break" target="_blank" href="{{ site.data.profile.location }}" style="color: black;">
-                            <img src="{{ '/assets/images/profile/Location_logo.png' | relative_url }}" style="height: 1em; margin-top: -0.2em; margin-right: 0.25em"> <span style="font-family: 'Times New Roman', sans-serif;">Kowloon Tong, HK</span><span style="margin-left: 2.7em;"></span>
+                            <img src="{{ '/assets/images/profile/Location_logo.png' | relative_url }}" style="height: 1em; margin-top: -0.2em; margin-right: 0.25em"> <span style="font-family: 'Times New Roman', sans-serif;">Kowloon Tong, HK</span><span style="margin-right: 2.7em;"></span>
                         </a>
                         {% endif %}
                         <a class="pr-3 no-break" href="mailto:{{ site.data.profile.email | encode_email }}" style="color: black;">
-                            <img src="{{ '/assets/images/profile/Gmail_logo.png' | relative_url }}" style="height: 0.8em; margin-top: -0.2em; margin-right: 0.25em"> <span class="email-text" style="font-family: Arial, sans-serif; color: #000000"><span style="font-family: 'Times New Roman', sans-serif;">{{ site.data.profile.email |   }}</span><span style="margin-left: 2.7em;"></span>
+                            <img src="{{ '/assets/images/profile/Gmail_logo.png' | relative_url }}" style="height: 0.8em; margin-top: -0.2em; margin-right: 0.25em"> <span class="email-text" style="font-family: Arial, sans-serif; color: #000000"><span style="font-family: 'Times New Roman', sans-serif;">{{ site.data.profile.email |   }}</span><span style="margin-right: 2.7em;"></span>
 </span>
                         </a>
                         {% if site.data.profile.gscholar %}
@@ -65,12 +65,12 @@
                         {%- assign gscholar_url = 'https://scholar.google.com/citations?user=' | append: site.data.profile.gscholar -%}
                         {%- endif -%}
                         <a class="pr-3 no-break" target="_blank" href="{{ gscholar_url }}" style="color: black;">
-                            <img src="{{ '/assets/images/profile/Google_Scholar_logo.png' | relative_url }}" style="height: 1em; margin-top: -0.2em; margin-right: 0.25em"> <span style="font-family: 'Times New Roman', sans-serif;">Google Scholar</span><span style="margin-left: 2.7em;"></span>
+                            <img src="{{ '/assets/images/profile/Google_Scholar_logo.png' | relative_url }}" style="height: 1em; margin-top: -0.2em; margin-right: 0.25em"> <span style="font-family: 'Times New Roman', sans-serif;">Google Scholar</span><span style="margin-right: 2.7em;"></span>
                         </a>
                         {% endif %}
                         {% if site.data.profile.orcid %}
                         <a class="pr-3 no-break" target="_blank" href="https://orcid.org/{{ site.data.profile.orcid }}" style="color: black;">
-                            <img src="{{ '/assets/images/profile/ORCID_logo.png' | relative_url }}" style="height: 1em; margin-top: -0.2em; margin-right: 0.25em"> <span style="font-family: 'Times New Roman', sans-serif;">ORCID</span><span style="margin-left: 2.7em;"></span>
+                            <img src="{{ '/assets/images/profile/ORCID_logo.png' | relative_url }}" style="height: 1em; margin-top: -0.2em; margin-right: 0.25em"> <span style="font-family: 'Times New Roman', sans-serif;">ORCID</span><span style="margin-right: 2.7em;"></span>
                         </a>
                         {% endif %}
                         
