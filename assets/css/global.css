@@ -108,3 +108,7 @@ div.lazy {
   color: #374151;
   line-height: 1.6;
 }
+
+.text-profile-bio {
+  max-width: 65ch;          /* 也可用 48ch/52ch/64ch */
+}
