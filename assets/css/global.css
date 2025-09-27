@@ -108,6 +108,3 @@ div.lazy {
   color: #374151;
   line-height: 1.6;
 }
-
-/* 轻微吃掉下方空白，缩短到边框的距离 */
-.contact-tight-bottom { margin-bottom: 1rem; } /* 可在 -0.25rem ~ -0.75rem 微调 */
