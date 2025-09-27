@@ -110,7 +110,7 @@ div.lazy {
 }
 
 .text-profile-bio {
-  max-width: 65ch;          /* 也可用 48ch/52ch/64ch */
+  max-width: 60ch;          /* 也可用 48ch/52ch/64ch */
 }
 
 @media (min-width: 768px) {
