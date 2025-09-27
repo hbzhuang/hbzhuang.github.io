@@ -110,5 +110,5 @@ div.lazy {
 }
 
 /* Honors & Awards 字号加强 */
-.awards-lg { font-size: 0.9rem; line-height: 1.4; } /* 约 16.8px */
-.awards-lg .no-break em { font-size: 0.85em; }       /* 可选：日期略小 */
+.awards-lg { font-size: 1rem; line-height: 1.4; } /* 约 16.8px */
+.awards-lg .no-break em { font-size: 1em; }       /* 可选：日期略小 */
