@@ -111,5 +111,5 @@ div.lazy {
 
 /* 只缩短“联系方式”与卡片下边框的距离，不影响外部间距 */
 .contact-tight-bottom {
-  margin-bottom: -0.5rem;   /* 可试 -0.25rem ~ -0.75rem 看视觉 */
+  margin-bottom: -1rem;   /* 可试 -0.25rem ~ -0.75rem 看视觉 */
 }
