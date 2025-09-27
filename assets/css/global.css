@@ -108,12 +108,3 @@ div.lazy {
   color: #374151;
   line-height: 1.6;
 }
-
-
-/* 放在 global.css 最后，覆盖默认 */
-html { font-size: 17px; }           /* 移动端/小屏 */
-@media (min-width: 992px) {
-  html { font-size: 18px; }         /* 大屏再稍微放大 */
-}
-
-body { line-height: 1.75; }         /* 提升可读性 */
