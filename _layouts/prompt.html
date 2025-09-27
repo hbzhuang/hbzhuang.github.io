@@ -4,32 +4,44 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>{{ page.title }}</title>
+
+    <!-- Bootstrap -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css" integrity="sha512-P5MgMn1jBN01asBgU0z60Qk4QxiXo86+wlFahKrsQf37c9cro517WzVSPPV1tDKzhku2iJ2FVgL67wG03SGnNA==" crossorigin="anonymous" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+
+    <!-- 全局样式 -->
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
-</head>
-<style type="text/css">
-    .container {
-        width: auto;
-        max-width: 680px;
-        padding: 0 15px;
-	margin: 0 auto; /* 水平居中 */
-    }
-        /* 页面整体缩放 */
-        body {
-            zoom: 120%;                /* Chrome, Edge, Safari 支持 */
-            transform: scale(1.2);     /* Firefox 兼容 */
-            transform-origin: top left; /* 缩放参考点在左上角 */
+
+    <style type="text/css">
+        /* 页面容器 */
+        .container {
+            width: auto;
+            max-width: 680px;
+            padding: 0 15px;
         }
-</style>
+
+        /* 整体缩放容器 */
+        .scale-container {
+            transform: scale(1.2);       /* 缩放 120% */
+            transform-origin: top left;  /* 缩放参考点左上角 */
+            width: 83.33%;               /* 1 / 1.2 = 0.8333，防止横向滚动 */
+            margin: 0 auto;              /* 水平居中 */
+        }
+    </style>
+</head>
+
 <body class="d-flex flex-column h-100">
     <main role="main" class="flex-shrink-0">
-        <div class="container">
-            {{ content }}
+        <!-- 缩放容器 -->
+        <div class="scale-container">
+            <div class="container">
+                {{ content }}
+            </div>
         </div>
     </main>
-
 </body>
 </html>
