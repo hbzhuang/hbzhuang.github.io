@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6,
 .text-profile-bio {
   font-family: 'Georgia', sans-serif;
   font-size: 1.05rem;
-  line-height: 1.6;
+  line-height: 1.8;
   font-weight: 400;
 }
 
@@ -92,19 +92,22 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
-/* 只作用于名字这一行 */
-.text-profile-name {
-  font-family: 'Georgia', sans-serif;
-  font-weight: 700;
-  font-size: 2rem;
-  letter-spacing: 0.2px;
-  margin-bottom: .25rem;
+.text-profile-bio {
+  max-width: 60ch;          /* 也可用 48ch/52ch/64ch */
 }
-/* 职位行同上 */
-.text-profile-position {
-  font-family: 'Georgia', sans-serif;
-  font-size: 1.05rem;
-  font-weight: 500;
-  color: #374151;
-  line-height: 1.6;
+
+/* 可选：按屏幕宽度调节 */
+@media (min-width: 768px) {
+  .text-profile-bio { max-width: 52ch; }
 }
+@media (min-width: 1200px) {
+  .text-profile-bio { max-width: 60ch; }
+}
+
+/* 放在 global.css 最后，覆盖默认 */
+html { font-size: 17px; }           /* 移动端/小屏 */
+@media (min-width: 992px) {
+  html { font-size: 18px; }         /* 大屏再稍微放大 */
+}
+
+body { line-height: 1.75; }         /* 提升可读性 */
