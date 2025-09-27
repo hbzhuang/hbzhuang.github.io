@@ -17,30 +17,27 @@
     <link rel="stylesheet" href="{{ '/assets/css/global.css' | relative_url }}">
 
     <style type="text/css">
-        /* 页面容器 */
+        /* 容器宽度和水平居中 */
         .container {
             width: auto;
             max-width: 680px;
             padding: 0 15px;
+            margin: 0 auto;
         }
 
-        /* 整体缩放容器 */
-        .scale-container {
-            transform: scale(1.2);       /* 缩放 120% */
-            transform-origin: top left;  /* 缩放参考点左上角 */
-            width: 83.33%;               /* 1 / 1.2 = 0.8333，防止横向滚动 */
-            margin: 0 auto;              /* 水平居中 */
+        /* 页面整体缩放 */
+        body {
+            zoom: 120%;                     /* Chrome / Edge / Safari */
+            -moz-transform: scale(1.2);     /* Firefox */
+            -moz-transform-origin: top left;
         }
     </style>
 </head>
 
 <body class="d-flex flex-column h-100">
     <main role="main" class="flex-shrink-0">
-        <!-- 缩放容器 -->
-        <div class="scale-container">
-            <div class="container">
-                {{ content }}
-            </div>
+        <div class="container">
+            {{ content }}
         </div>
     </main>
 </body>
