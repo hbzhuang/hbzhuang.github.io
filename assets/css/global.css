@@ -109,9 +109,3 @@ div.lazy {
   line-height: 1.6;
 }
 
-/* Honors & Awards 增大字号（强制覆盖） */
-.awards-lg { font-size: 1rem !important; line-height: 1.4; }
-/* 可选：日期小一点 */
-// .awards-lg .no-break em { font-size: .85em; }
-
-
