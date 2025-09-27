@@ -26,10 +26,19 @@
         }
 
         /* 页面整体缩放 */
+        html {
+            zoom: 120%;
+            transform: scale(1.2);
+            transform-origin: top left;
+            width: 120%;
+            height: 120%;
+        }
+
         body {
-            zoom: 120%;                     /* Chrome / Edge / Safari */
-            -moz-transform: scale(1.2);     /* Firefox */
-            -moz-transform-origin: top left;
+            width: 83.33%; /* 100% / 1.2 */
+            height: 83.33%;
+            margin: 0;
+            padding: 0;
         }
     </style>
 </head>
