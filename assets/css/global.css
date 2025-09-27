@@ -109,4 +109,6 @@ div.lazy {
   line-height: 1.6;
 }
 
-.pb-fine { padding-bottom: 1rem; }
+/* Honors & Awards 字号加强 */
+.awards-lg { font-size: 1.05rem; line-height: 1.6; } /* 约 16.8px */
+.awards-lg .no-break em { font-size: 0.95em; }       /* 可选：日期略小 */
