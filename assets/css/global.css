@@ -38,8 +38,10 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .text-profile-bio {
-    /* font-family: "Raleway"; */
-    font-weight: 400;
+  font-family: 'Georgia', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  font-weight: 400;
 }
 
 .navbar {
@@ -90,3 +92,10 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+/* 放在 global.css 最后，覆盖默认 */
+html { font-size: 17px; }           /* 移动端/小屏 */
+@media (min-width: 992px) {
+  html { font-size: 18px; }         /* 大屏再稍微放大 */
+}
+
+body { line-height: 1.75; }         /* 提升可读性 */
