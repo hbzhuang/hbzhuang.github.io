@@ -110,3 +110,7 @@ div.lazy {
 }
 
 .text-105 { font-size: 0.95rem; }
+
+/* 控制 Education/Experience 每条里日期距右边框的内缩量，从而把日期整体左移 */
+.pr-date { padding-right: 4rem; }           /* 你想左移多少就写多少 */
+@media (min-width: 992px) { .pr-date { padding-right: 6rem; } }  /* 桌面端再多挪一点（可选） */
