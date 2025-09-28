@@ -2,11 +2,10 @@
 title:          "Novel reliability indicators from the perspective of data center networks"
 date:           2025-03-12 00:01:00 +0800
 selected:       true
-pub:            "IEEE Transactions on Reliability"
+pub:            "IEEE Transactions on Reliability,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_date:       "2025"
-semantic_scholar_id: 204e3073870fae3d05bcbc2f6a8e263d9b72e776  # use this to retrieve citation count
+pub_date:       "vol. 74, no. 1, pp. 2459-2472, 2025"
 cover:          /assets/images/covers/cover3.jpg
 authors:
   - Hongbin Zhuang
@@ -14,4 +13,6 @@ authors:
   - Cheng-Kuan Lin
   - Ximeng Liu
   - Xiaohua Jia
+links:
+  Paper: https://ieeexplore.ieee.org/abstract/document/10527394
 ---
