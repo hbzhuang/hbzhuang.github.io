@@ -1,5 +1,5 @@
 ---
-title:          "The $R_g$-conditional connectivity and diagnosablility of generalized exchanged X-cubes"
+title:          "The $R_g$-conditional connectivity and diagnosablility of generalized exchanged ￥X$-cubes"
 date:           2021-12-06 00:01:00 +0800
 selected:       false
 pub:            "IEEE 21st International Conference on Software Quality, Reliability and Security Companion,"
