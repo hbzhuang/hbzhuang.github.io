@@ -5,7 +5,7 @@ selected:       true
 pub:            "Journal of Parallel and Distributed Computing,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
-pub_date:       "vol. 177, pp. 182-191, 2023"
+pub_date:       "vol. 190, 2024, Art. no. 104887"
 cover:          /assets/images/covers/cover3.jpg
 authors:
   - Hongbin Zhuang
