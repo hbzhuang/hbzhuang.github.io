@@ -1,32 +1,45 @@
 {% assign svc = site.data.academic_service %}
-<div class="card border-0 shadow-sm bg-white mb-4" id="academic-service">
-  <div class="card-body p-4 p-md-5">
-    <div class="d-flex align-items-center mb-3">
-      <div class="mr-2" style="font-size: 1.25rem;">
-        {{ svc.icon_html }}
-      </div>
-      <h4 class="m-0">{{ svc.title | default: "Academic Service" }}</h4>
-    </div>
 
+<div class="my-3 bg-white shadow-sm rounded-xl" id="academic-service">
+  <!-- 统一的卡片标题：h6 + 图标 + 底部分界线 -->
+  <h6 class="p-3 mb-0 border-bottom border-gray">
+    {{ svc.icon_html }} {{ svc.title | default: "Academic Service" }}
+  </h6>
+
+  <!-- 内容区与 News/Publication 一致的内边距 -->
+  <div class="px-3 pb-1">
     <div class="row">
-      <div class="col-md-6 mb-3">
-        <h6 class="text-muted mb-2">{{ svc.tpc_member.heading | default: "TPC Member" }}</h6>
-        <ul class="pl-3 mb-0">
-          {% for it in svc.tpc_member.items %}
-          <li class="mb-1">{{ it }}</li>
-          {% endfor %}
-        </ul>
+      <!-- 左列：TPC Member -->
+      <div class="col-md-6">
+        <div class="py-2 text-muted">{{ svc.tpc_member.heading | default: "TPC Member" }}</div>
+        {% assign not_first = false %}
+        {% for it in svc.tpc_member.items %}
+          <div class="media py-1 {% if not_first %}border-top border-gray{% endif %}">
+            {% assign not_first = true %}
+            <div class="media-body">
+              <div class="my-1 d-flex">
+                <div>{{ it }}</div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       </div>
 
-      <div class="col-md-6 mb-3">
-        <h6 class="text-muted mb-2">{{ svc.reviewer.heading | default: "Reviewer" }}</h6>
-        <ul class="pl-3 mb-0">
-          {% for it in svc.reviewer.items %}
-          <li class="mb-1">{{ it }}</li>
-          {% endfor %}
-        </ul>
+      <!-- 右列：Reviewer -->
+      <div class="col-md-6 mt-3 mt-md-0">
+        <div class="py-2 text-muted">{{ svc.reviewer.heading | default: "Reviewer" }}</div>
+        {% assign not_first_r = false %}
+        {% for it in svc.reviewer.items %}
+          <div class="media py-1 {% if not_first_r %}border-top border-gray{% endif %}">
+            {% assign not_first_r = true %}
+            <div class="media-body">
+              <div class="my-1 d-flex">
+                <div>{{ it }}</div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
       </div>
     </div>
-
   </div>
 </div>

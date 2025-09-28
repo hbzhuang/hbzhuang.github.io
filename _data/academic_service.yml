@@ -1,5 +1,5 @@
 title: "Academic Service"
-icon_html: '<i class="fas fa-university"></i>'   # 可改成你喜欢的图标
+icon_html: '<i class="fas fa-university"></i>'
 
 tpc_member:
   heading: "TPC Member"
