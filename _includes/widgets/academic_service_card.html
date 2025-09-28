@@ -1,45 +1,49 @@
 {% assign svc = site.data.academic_service %}
 
 <div class="my-3 bg-white shadow-sm rounded-xl" id="academic-service">
-  <!-- 统一的卡片标题：h6 + 图标 + 底部分界线 -->
+  <!-- 标题：与 News/Selected Publications 一致 -->
   <h6 class="p-3 mb-0 border-bottom border-gray">
     {{ svc.icon_html }} {{ svc.title | default: "Academic Service" }}
   </h6>
 
-  <!-- 内容区与 News/Publication 一致的内边距 -->
   <div class="px-3 pb-1">
-    <div class="row">
-      <!-- 左列：TPC Member -->
-      <div class="col-md-6">
-        <div class="py-2 text-muted">{{ svc.tpc_member.heading | default: "TPC Member" }}</div>
-        {% assign not_first = false %}
-        {% for it in svc.tpc_member.items %}
-          <div class="media py-1 {% if not_first %}border-top border-gray{% endif %}">
-            {% assign not_first = true %}
-            <div class="media-body">
-              <div class="my-1 d-flex">
-                <div>{{ it }}</div>
-              </div>
-            </div>
-          </div>
-        {% endfor %}
-      </div>
 
-      <!-- 右列：Reviewer -->
-      <div class="col-md-6 mt-3 mt-md-0">
-        <div class="py-2 text-muted">{{ svc.reviewer.heading | default: "Reviewer" }}</div>
-        {% assign not_first_r = false %}
-        {% for it in svc.reviewer.items %}
-          <div class="media py-1 {% if not_first_r %}border-top border-gray{% endif %}">
-            {% assign not_first_r = true %}
-            <div class="media-body">
-              <div class="my-1 d-flex">
-                <div>{{ it }}</div>
-              </div>
+    <!-- 第一部分：Reviewer（纵向第一块），每行 3 个 -->
+    <div class="py-2 text-muted">{{ svc.reviewer.heading | default: "Reviewer" }}</div>
+    <div class="row">
+      {% for it in svc.reviewer.items %}
+      <div class="col-12 col-md-4">
+        <div class="media py-1 {% if forloop.index0 >= 3 %}{% endif %}">
+          <div class="media-body">
+            <div class="d-flex align-items-start my-1">
+              <span class="mr-2" aria-hidden="true">•</span>
+              <div>{{ it }}</div>
             </div>
           </div>
-        {% endfor %}
+        </div>
       </div>
+      {% endfor %}
     </div>
+
+    <!-- 分隔线：区分两部分 -->
+    <hr class="my-3">
+
+    <!-- 第二部分：TPC Member（纵向第二块），每行 1 个 -->
+    <div class="py-2 text-muted">{{ svc.tpc_member.heading | default: "TPC Member" }}</div>
+    <div class="row">
+      {% for it in svc.tpc_member.items %}
+      <div class="col-12">
+        <div class="media py-1 {% if forloop.index0 > 0 %}border-top border-gray{% endif %}">
+          <div class="media-body">
+            <div class="d-flex align-items-start my-1">
+              <span class="mr-2" aria-hidden="true">•</span>
+              <div>{{ it }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+
   </div>
 </div>
