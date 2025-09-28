@@ -7,7 +7,7 @@ pub:            "Future Generation Computer Systems,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "vol. 158, pp. 110-121, 2024"
-cover:          /assets/images/covers/fgcs1.jpg
+cover:          /assets/images/covers/fgcs.jpg
 authors:
   - Hongbin Zhuang
   - Xiao-Yan Li
