@@ -5,7 +5,7 @@ selected:       true
 order: 1
 pub:            "IEEE Transactions on Computers,"
 pub_date:       "vol. 72, no. 11, pp. 3245-3258, 2023"
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/covers/tc.jpg
 authors:
 - Hongbin Zhuang
 - Xiao-Yan Li
