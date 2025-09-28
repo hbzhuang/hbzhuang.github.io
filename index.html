@@ -21,13 +21,26 @@ navbar_title: Home
 {% endif %}
 
 {% if site.data.display.homepage.show_selected_publications %}
-    {% assign pubs = site.publications | sort: "date" | reverse | where: "selected", true %}
+
+    {%- comment -%} 只取选中的论文 {%- endcomment -%}
+    {% assign selected = site.publications | where: "selected", true %}
+
+    {%- comment -%} 有 order 的先排（数值小的在前） {%- endcomment -%}
+    {% assign ordered = selected | where_exp: "p", "p.order" | sort: "order" %}
+
+    {%- comment -%} 没 order 的放后面，仍按时间新→旧 {%- endcomment -%}
+    {% assign unordered = selected | where_exp: "p", "p.order == nil" | sort: "date" | reverse %}
+
+    {%- comment -%} 合并为最终列表 {%- endcomment -%}
+    {% assign pubs = ordered | concat: unordered %}
+
     {% 
         include widgets/publication_card.html 
         publications=pubs
         title='<i class="fas fa-star"></i> Selected Publications'
     %}
 {% endif %}
+
 
 {% if site.data.display.homepage.show_academic_service %}
   {% include widgets/academic_service_card.html %}
