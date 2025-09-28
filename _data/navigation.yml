@@ -8,5 +8,5 @@ pages:
 - name: Showcase
   url: /showcase
   - name: CV
-  url: /assets/files/cv-ZHB.pdf   # 或 /cv.pdf
+  url: /assets/files/cv.pdf   # 或 /cv.pdf
   target: _blank              # 想新标签页打开就加这个
