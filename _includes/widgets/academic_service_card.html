@@ -1,6 +1,6 @@
 {% assign svc = site.data.academic_service %}
 
-<div class="my-3 bg-white shadow-sm rounded-xl" id="academic-service">
+<div class="my-3 bg-white shadow-sm rounded-xl academic-service" id="academic-service">
   <!-- 标题：与 News/Selected Publications 一致 -->
   <h6 class="p-3 mb-0 border-bottom border-gray">
     {{ svc.icon_html }} {{ svc.title | default: "Academic Service" }}
@@ -10,13 +10,13 @@
   <div class="pl-4 pr-2 pr-md-3 pb-4">
 
     <!-- 第一部分：Reviewer（纵向第一块） -->
-    <div class="py-2 text-info mb-1">{{ svc.reviewer.heading | default: "Reviewer" }}</div>
+    <div class="py-2 reviewer-heading mb-1">{{ svc.reviewer.heading | default: "Reviewer" }}</div>
 
     <!-- 紧凑化：去掉默认水平gutter，改用更小的局部内边距 -->
     <div class="row no-gutters">
       {% for it in svc.reviewer.items %}
       <!-- 三列布局不变；用更小的 px-2 代替默认 15px padding -->
-      <div class="col-12 col-md-4 px-2 mb-2">
+      <div class="col-12 col-md-4 px-2 mb-2">gai
         <div class="media py-0">
           <div class="media-body">
             <div class="d-flex align-items-start my-0">
@@ -34,7 +34,7 @@
     <hr class="my-3">
 
     <!-- 第二部分：TPC Member（纵向第二块），每行 1 个 -->
-    <div class="py-2 text-info">{{ svc.tpc_member.heading | default: "TPC Member" }}</div>
+    <div class="py-2 tpc-heading">{{ svc.tpc_member.heading | default: "TPC Member" }}</div>
     <div class="row">
       {% for it in svc.tpc_member.items %}
       <div class="col-12 mb-2 pr-md-2">
