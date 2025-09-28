@@ -6,14 +6,15 @@
     {{ svc.icon_html }} {{ svc.title | default: "Academic Service" }}
   </h6>
 
-  <div class="px-3 pb-1">
+  <!-- 调大左右与底部留白：px-4（小屏），px-md-5（中大屏），pb-4（底部） -->
+  <div class="px-4 px-md-5 pb-4">
 
     <!-- 第一部分：Reviewer（纵向第一块），每行 3 个 -->
     <div class="py-2 text-muted">{{ svc.reviewer.heading | default: "Reviewer" }}</div>
     <div class="row">
       {% for it in svc.reviewer.items %}
-      <div class="col-12 col-md-4">
-        <div class="media py-1 {% if forloop.index0 >= 3 %}{% endif %}">
+      <div class="col-12 col-md-4 mb-2">
+        <div class="media py-1">
           <div class="media-body">
             <div class="d-flex align-items-start my-1">
               <span class="mr-2" aria-hidden="true">•</span>
@@ -32,7 +33,7 @@
     <div class="py-2 text-muted">{{ svc.tpc_member.heading | default: "TPC Member" }}</div>
     <div class="row">
       {% for it in svc.tpc_member.items %}
-      <div class="col-12">
+      <div class="col-12 mb-2">
         <div class="media py-1 {% if forloop.index0 > 0 %}border-top border-gray{% endif %}">
           <div class="media-body">
             <div class="d-flex align-items-start my-1">
