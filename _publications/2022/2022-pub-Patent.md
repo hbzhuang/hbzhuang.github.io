@@ -10,7 +10,7 @@ cover:          /assets/images/covers/cover3.jpg
 authors:
   - Ximeng Liu
   - Wenzhong Guo
-  - Jiayin Lin
+  - Jiayin Li
   - Xiaoyan Li
   - Hongbin Zhuang
 links:

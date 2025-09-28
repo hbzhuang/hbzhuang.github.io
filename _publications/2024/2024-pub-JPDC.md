@@ -13,5 +13,5 @@ authors:
   - Jou-Ming Chang
   - Ximeng Liu
 links:
-  Paper: https://www.sciencedirect.com/science/article/abs/pii/S0743731523000436
+  Paper: https://www.sciencedirect.com/science/article/abs/pii/S0743731524000510
 ---
