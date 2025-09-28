@@ -1,0 +1,17 @@
+title: "Academic Service"
+icon_html: '<i class="fas fa-university"></i>'   # 可改成你喜欢的图标
+
+tpc_member:
+  heading: "TPC Member"
+  items:
+    - "IEEE International Symposium on Parallel and Distributed Processing with Applications"
+
+reviewer:
+  heading: "Reviewer"
+  items:
+    - "IEEE Transactions on Computers"
+    - "IEEE Transactions on Communications"
+    - "IEEE Transactions on Reliability"
+    - "The Journal of Supercomputing"
+    - "Cluster Computing"
+    - "Journal of the Chinese Institute of Engineers"

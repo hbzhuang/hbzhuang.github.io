@@ -1,0 +1,32 @@
+{% assign svc = site.data.academic_service %}
+<div class="card border-0 shadow-sm bg-white mb-4" id="academic-service">
+  <div class="card-body p-4 p-md-5">
+    <div class="d-flex align-items-center mb-3">
+      <div class="mr-2" style="font-size: 1.25rem;">
+        {{ svc.icon_html }}
+      </div>
+      <h4 class="m-0">{{ svc.title | default: "Academic Service" }}</h4>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <h6 class="text-muted mb-2">{{ svc.tpc_member.heading | default: "TPC Member" }}</h6>
+        <ul class="pl-3 mb-0">
+          {% for it in svc.tpc_member.items %}
+          <li class="mb-1">{{ it }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <div class="col-md-6 mb-3">
+        <h6 class="text-muted mb-2">{{ svc.reviewer.heading | default: "Reviewer" }}</h6>
+        <ul class="pl-3 mb-0">
+          {% for it in svc.reviewer.items %}
+          <li class="mb-1">{{ it }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</div>

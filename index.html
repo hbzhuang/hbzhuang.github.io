@@ -28,3 +28,7 @@ navbar_title: Home
         title='<i class="fas fa-star"></i> Selected Publications'
     %}
 {% endif %}
+
+{% if site.data.display.homepage.show_academic_service %}
+  {% include widgets/academic_service_card.html %}
+{% endif %}
