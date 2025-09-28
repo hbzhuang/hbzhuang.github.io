@@ -6,7 +6,7 @@ order: 2
 pub:            "IEEE Transactions on Parallel and Distributed Systems,"
 pub_date:       "vol. 34, no. 6, pp. 1802-1815, 2023"
 
-cover:          /assets/images/covers/tpds.jpg
+cover:          /assets/images/covers/tpds1.jpg
 authors:
   - Hongbin Zhuang
   - Xiao-Yan Li
