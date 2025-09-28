@@ -10,7 +10,7 @@
   <div class="pl-4 pr-2 pr-md-3 pb-4">
 
     <!-- 第一部分：Reviewer（纵向第一块） -->
-    <div class="py-2 text-dark mb-1">{{ svc.reviewer.heading | default: "Reviewer" }}</div>
+    <div class="py-2 text-info mb-1">{{ svc.reviewer.heading | default: "Reviewer" }}</div>
 
     <!-- 紧凑化：去掉默认水平gutter，改用更小的局部内边距 -->
     <div class="row no-gutters">
@@ -34,7 +34,7 @@
     <hr class="my-3">
 
     <!-- 第二部分：TPC Member（纵向第二块），每行 1 个 -->
-    <div class="py-2 text-dark">{{ svc.tpc_member.heading | default: "TPC Member" }}</div>
+    <div class="py-2 text-info">{{ svc.tpc_member.heading | default: "TPC Member" }}</div>
     <div class="row">
       {% for it in svc.tpc_member.items %}
       <div class="col-12 mb-2 pr-md-2">
