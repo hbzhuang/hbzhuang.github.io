@@ -2,7 +2,7 @@
 title:          "All-to-all routing algorithm for Galaxyfly networks"
 date:           2022-12-18 00:01:00 +0800
 selected:       false
-pub:            "IEEE 24th International Conference on High Performance Computing \& Communications,"
+pub:            "IEEE 24th International Conference on High Performance Computing and Communications,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "pp. 888-893, 2022"
