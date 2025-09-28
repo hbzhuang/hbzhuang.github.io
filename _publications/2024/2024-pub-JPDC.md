@@ -7,7 +7,7 @@ pub:            "Journal of Parallel and Distributed Computing,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "vol. 190, 2024, Art. no. 104887"
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/jpdc.jpg
 authors:
   - Hongbin Zhuang
   - Xiao-Yan Li
