@@ -125,19 +125,3 @@ div.lazy {
 
 
 
-.publication-cover-img {
-  display: block;
-  max-width: 100%;
-  width: 100%;
-  height: auto !important;              /* 关键：覆盖任何 100% 或固定高度 */
-  object-fit: contain;                  /* 不裁切、不变形；若你更想铺满可改为 cover */
-  object-position: center center;
-}
-
-/* 若模板里某处给封面“容器”设了固定高度，这里统一用自适应高度 */
-.publication-cover-img,
-.publication-cover-img[style] {
-  /* 兜底把行内 height 干掉（如有） */
-  height: auto !important;
-}
-
