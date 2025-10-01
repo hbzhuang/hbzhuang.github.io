@@ -122,3 +122,21 @@ div.lazy {
   display: block;
 }
 
+/* --- Fix: avoid image distortion on publications --- */
+.publication-card img,
+.publication-item img,
+.pub-cover img {
+  width: 100%;
+  height: auto;       /* 关键：由宽度自适应高度，保持比例 */
+  display: block;
+}
+
+/* 若有任何地方给 img 或封面容器写了固定 height，这里强制覆盖掉 */
+img.pub-cover,
+.pub-cover,
+.publication-card .cover,
+.publication-item .cover {
+  /* 如果你的主题里给这些类设了固定 height，建议移除或不要用 !important 覆盖 */
+  /* height: auto !important;  // 只有确认上游有固定 height 时再解开这行 */
+}
+
