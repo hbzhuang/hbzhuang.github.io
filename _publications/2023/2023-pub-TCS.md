@@ -4,7 +4,7 @@ date:           2023-10-11 00:01:00 +0800
 selected:       false
 pub:            "Theoretical Computer Science,"
 pub_date:       "vol. 977, 2023, Art. no. 114173"
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/covers/tcs.jpg
 authors:
 - Hongbin Zhuang
 - Wanling Lin
