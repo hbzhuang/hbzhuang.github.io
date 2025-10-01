@@ -6,7 +6,7 @@ pub:            "Journal of Supercomputing,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "vol. 80, pp. 11401-11430, 2024"
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/wanSuper.jpg
 authors:
   - Wanling Lin
   - Hongbin Zhuang
