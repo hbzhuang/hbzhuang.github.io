@@ -5,7 +5,7 @@ selected:       false
 pub:            "Journal of Parallel and Distributed Computing,"
 pub_date:       "vol. 177, pp. 182-191, 2023"
 
-cover:          /assets/images/covers/cover2.jpg
+cover:          /assets/images/covers/BH.jpg
 authors:
   - Xiao-Yan Li
   - Kun Zhao
