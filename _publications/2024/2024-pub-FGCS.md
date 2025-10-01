@@ -2,7 +2,6 @@
 title:          "Enabling high fault-tolerant embedding capability of alternating group graphs"
 date:           2024-09-12 00:01:00 +0800
 selected:       false
-order: 5
 pub:            "Future Generation Computer Systems,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
