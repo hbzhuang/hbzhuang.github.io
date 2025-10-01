@@ -116,12 +116,7 @@ div.lazy {
 .pr-date { padding-right: 6.5rem; }           /* 你想左移多少就写多少 */
 @media (min-width: 992px) { .pr-date { padding-right: 2.7rem; } }  /* 桌面端再多挪一点（可选） */
 
-/* 避免封面图被拉伸：宽度100%，高度随比例自适应 */
-.publication-cover-img {
-  width: 100%;
-  height: auto !important;   /* 兜底：覆盖任何 min-height/height 牵制 */
-  display: block;
-}
+
 
 
 
