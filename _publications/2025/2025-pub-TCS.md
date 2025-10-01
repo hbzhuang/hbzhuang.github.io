@@ -6,7 +6,7 @@ pub:            "Theoretical Computer Science,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "vol. 36, no. 04, pp. 583-598, 2025"
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/TCS2025.jpg
 authors:
   - Xiao-Yan Li
   - Zhaoding Lin
