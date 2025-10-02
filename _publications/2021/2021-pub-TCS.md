@@ -4,7 +4,7 @@ date:           2021-12-06 00:01:00 +0800
 selected:       false
 pub:            "Theoretical Computer Science,"
 pub_date:       "vol. 896, pp. 145-157, 2021"
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/covers/BQ.jpg
 authors:
 - Hongbin Zhuang
 - Wenzhong Guo
