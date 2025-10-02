@@ -6,7 +6,7 @@ pub:            "IEEE 24th International Conference on High Performance Computin
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "pp. 888-893, 2022"
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/HPCC.jpg
 authors:
   - Qinying Lin
   - Hongbin Zhuang#

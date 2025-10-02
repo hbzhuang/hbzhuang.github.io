@@ -6,7 +6,7 @@ pub:            "International Computer Symposium,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "pp. 192-204, 2022"
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/ICS.jpg
 authors:
   - Kun Zhao*
   - Hongbin Zhuang*
