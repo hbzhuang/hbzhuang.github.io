@@ -6,7 +6,7 @@ pub:            "International Journal of Foundations of Computer Science,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "vol. 33, no. 1, pp. 67-89, 2022"
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/IJFCS2022.jpg
 authors:
   - Hongbin Zhuang
   - Wenzhong Guo
