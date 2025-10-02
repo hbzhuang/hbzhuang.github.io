@@ -6,7 +6,7 @@ pub:            "Trustworthy Federated Learning,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "pp. 144-158, 2022"
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/Cai.jpg
 authors:
   - Jianping Cai
   - Yang Liu

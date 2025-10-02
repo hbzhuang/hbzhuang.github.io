@@ -6,7 +6,7 @@ pub:            "US Patent 11, 303,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "620"
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/traffice.jpg
 authors:
   - Ximeng Liu
   - Wenzhong Guo
