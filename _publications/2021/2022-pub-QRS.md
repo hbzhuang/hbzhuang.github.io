@@ -4,7 +4,7 @@ date:           2021-12-06 00:01:00 +0800
 selected:       false
 pub:            "IEEE 21st International Conference on Software Quality, Reliability and Security Companion,"
 pub_date:       "pp. 897-904, 2021"
-cover:          /assets/images/covers/cover1.jpg
+cover:          /assets/images/covers/Rg.png
 authors:
 - Yufang Zhang
 - Ximeng Liu
