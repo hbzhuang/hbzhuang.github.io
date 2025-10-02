@@ -6,7 +6,7 @@ pub:            "Wireless Communications and Mobile Computing,"
 # pub_pre:        "Submitted to "
 # pub_post:       'Under review.'
 pub_date:       "vol. 4, pp. 1-16, 2020"
-cover:          /assets/images/covers/cover3.jpg
+cover:          /assets/images/covers/2020.jpg
 authors:
   - Xiaoyan Li
   - Hongbin Zhuang
