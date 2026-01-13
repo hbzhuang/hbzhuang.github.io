@@ -1,5 +1,5 @@
 ---
-title:          "An efficient algorithm for Hamiltonian path embedding of $k$-ary $n$-cubes under the partitioned edge fault model"
+title:          "An efficient algorithm for Hamiltonian path embedding of $k$-ary $n$-cubes under the partitioned edge \textnormal{   } fault model"
 date:           2023-06-20 00:01:00 +0800
 selected:       true
 order: 3
