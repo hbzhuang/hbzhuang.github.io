@@ -1,7 +1,7 @@
 ---
 title:          "Paired 2-disjoint path covers of $k$-ary $n$-cubes under the partitioned edge fault model"
 date:           2024-07-12 00:01:00 +0800
-selected:       true
+selected:       false
 order: 5
 pub:            "Journal of Parallel and Distributed Computing,"
 # pub_pre:        "Submitted to "
