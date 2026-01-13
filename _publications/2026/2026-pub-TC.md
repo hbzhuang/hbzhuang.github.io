@@ -1,5 +1,5 @@
 ---
-title:          "Optimal Fault-Tolerant Path and Cycle Embedding of Hypercube Networks under the PEF Model"
+title:          "Optimal fault-tolerant path and cycle embedding of hypercube networks under the PEF model"
 date:           2026-01-20 00:01:00 +0800
 selected:       true
 order: 1
