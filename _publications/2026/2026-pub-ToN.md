@@ -5,7 +5,7 @@ selected:       true
 order: 1
 pub:            "IEEE Transactions on Networking,"
 pub_date:       "DOI: 10.1109/TON.2026.3678650, 2026"
-cover:          /assets/images/covers/ton.jpg
+cover:          /assets/images/covers/ton.png
 authors:
 - Hongbin Zhuang
 - Jou-Ming Chang
