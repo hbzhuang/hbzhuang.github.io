@@ -136,3 +136,23 @@ div.lazy {
   height: auto !important;
 }
 
+.reviewer-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr 1fr;  /* 第一列微微加宽 */
+  column-gap: 0.5rem;
+  row-gap: 0.5rem;
+}
+
+.reviewer-item {
+  min-width: 0;
+}
+
+.reviewer-item .d-flex > div {
+  line-height: 1.25;
+}
+
+@media (max-width: 767.98px) {
+  .reviewer-grid {
+    grid-template-columns: 1fr;
+  }
+}
