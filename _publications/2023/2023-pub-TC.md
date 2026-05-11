@@ -11,7 +11,6 @@ authors:
 - Xiao-Yan Li
 - Jou-Ming Chang
 - Cheng-Kuan Lin
-- Ximeng Liu
 links:
   Paper: https://ieeexplore.ieee.org/abstract/document/10159476
 ---
