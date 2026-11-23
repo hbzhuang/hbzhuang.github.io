@@ -37,6 +37,20 @@ education:
   date: Sep. 2015 - Jun. 2019
 
 
+experience:
+- name: Fuzhou University
+  logo: /assets/images/badges/Fuzhou.png
+  dept: College of Computer and Data Science
+  position: Lecturer
+  date: Dec. 2026 - present
+- name: City University of Hong Kong
+  logo: /assets/images/badges/CityU_logo.png
+  dept: Department of Computer Science
+  position: Postdoctoral Fellow
+  date: Sep. 2024 - Sep. 2026
+  supervisor: Prof. Xiaohua Jia
+
+
 awards:
 - name: Outstanding Doctoral Dissertation Award in FZU
   date: 2025
