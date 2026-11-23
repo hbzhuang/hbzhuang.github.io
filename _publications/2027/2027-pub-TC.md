@@ -5,7 +5,7 @@ selected:       true
 order: 1
 pub:            "IEEE Transactions on Computers,"
 # pub_date:       "vol. 75, no. 4, pp. 1565-1578, 2026"
-cover:          /assets/images/covers/tc27.jpg
+cover:          /assets/images/covers/tc27.png
 authors:
 - Hongbin Zhuang
 - Wanling Lin
