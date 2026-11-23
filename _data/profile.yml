@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Hongbin Zhuang"
 
 positions:
-- logo: /assets/images/badges/CityU_logo.png  # Logo is optional
+- logo: /assets/images/badges/Fuzhou.png  # Logo is optional
   name: Lecturer, Fuzhou University
 
 location: https://www.google.com/maps/place/%E7%A6%8F%E5%B7%9E%E5%A4%A7%E5%AD%A6/@26.0818505,119.2852116,18z/data=!4m6!3m5!1s0x344051226f7019cd:0x39fd4821c475e053!8m2!3d26.0818505!4d119.2865017!16zL20vMDNwdzR0?entry=ttu&g_ep=EgoyMDI2MTExOC4xIKXMDSoASAFQAw%3D%3D
@@ -29,10 +29,12 @@ portrait_url: /assets/images/photos/myphoto.jpg
 education:
 - name: Fuzhou University
   logo: /assets/images/badges/Fuzhou.png
+  dept: College of Computer and Data Science
   position: Ph.D. in Computer Science
   date: Sep. 2019 - Jun. 2024
 - name: Huaqiao University
   logo: /assets/images/badges/Huaqiao.png
+  dept: College of Civil Engineering
   position: B.Eng. in Civil Engineering
   date: Sep. 2015 - Jun. 2019
 
@@ -46,9 +48,8 @@ experience:
 - name: City University of Hong Kong
   logo: /assets/images/badges/CityU_logo.png
   dept: Department of Computer Science
-  position: Postdoctoral Fellow
+  position: Postdoctoral Fellow (supervised by Prof. Xiaohua Jia)
   date: Sep. 2024 - Sep. 2026
-  supervisor: Prof. Xiaohua Jia
 
 
 awards:
